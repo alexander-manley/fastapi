@@ -17,7 +17,7 @@ spec:
         name: fastapi
         args:
          - echo "test";
-           git clone https://github.com/alexander-manley/fastapi.git:
+           git clone https://github.com/alexander-manley/fastapi.git;
            uvicorn main:app;
 
 
