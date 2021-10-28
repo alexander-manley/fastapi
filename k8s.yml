@@ -16,7 +16,8 @@ spec:
       - image: tiangolo/uvicorn-gunicorn:python3.9
         name: fastapi
         args:
-         - echo "test"
+         - echo "test";
+           git clone https://github.com/alexander-manley/fastapi.git:
            uvicorn main:app;
 
 
